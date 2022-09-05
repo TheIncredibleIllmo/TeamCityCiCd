@@ -13,7 +13,7 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.UseSwagger();
-app.UseSwaggerUI(c=>c.SwaggerEndpoint("v1/swagger.json", "WeatherForecast API V1"));
+app.UseSwaggerUI(c=>c.SwaggerEndpoint("v1/swagger.json", "WeatherForecast API v1"));
 
 app.UseAuthorization();
 
