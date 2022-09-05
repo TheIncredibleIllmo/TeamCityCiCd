@@ -29,5 +29,12 @@ namespace TeamCityCiCd.Controllers
             })
             .ToArray();
         }
+
+        [Route(nameof(HelloWorld))]
+        [HttpGet]
+        public string HelloWorld()
+        {
+            return "Hello World";
+        }
     }
 }
